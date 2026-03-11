@@ -26,6 +26,10 @@ img {
   background: #eee;
 }
 
+body{
+  text-align: center;
+}
+
 .container, .flowerContainer{
   display: flex;
 }
@@ -33,14 +37,11 @@ img {
 .container{
   flex-direction: column;
   align-items: center;
+  max-width: 200px;
 }
 
 .flowerContainer{
   flex-direction: row;
   justify-content: center;
   gap: 50px;
-}
-
-.text{
-  text-align: center;
 }
